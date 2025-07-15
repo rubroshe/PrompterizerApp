@@ -1,0 +1,62 @@
+# === .NET + Visual Studio ===
+bin/
+obj/
+.vscode/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# === Build results ===
+**/[Dd]ebug*/
+**/[Rr]elease*/
+**/[Bb]uild*/
+
+# === Auto-generated files ===
+*.exe
+*.dll
+*.app
+*.apk
+*.ipa
+*.log
+*.pdb
+*.mdb
+
+# === OS-specific ===
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# === Xamarin/Mobile-specific ===
+*.apk
+*.ap_
+*.aab
+*.keystore
+*.crash
+*.ncb
+*.opendb
+*.pidb
+*.sdf
+*.suo
+*.userprefs
+
+# === MAUI platform targets ===
+platforms/
+AppPackages/
+PublishProfiles/
+
+# === JetBrains Rider / ReSharper ===
+.idea/
+*.DotSettings.user
+_ReSharper*/
+
+# === TFM-specific ===
+net*/bin/
+net*/obj/

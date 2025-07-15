@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PrompterizerApp.MainPage">
+
+    <VerticalStackLayout Padding="30" Spacing="25">
+
+        <Label
+            Text="Select a file to download"
+            FontSize="20"
+            SemanticProperties.HeadingLevel="Level1" />
+
+        <Picker
+            x:Name="filePicker"
+            Title="Choose file" />
+
+        <Button
+            Text="Download"
+            Clicked="OnDownloadClicked"
+            HorizontalOptions="Fill" />
+
+    </VerticalStackLayout>
+</ContentPage>
